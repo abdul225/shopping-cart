@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'basheer-site';
+  title = 'shopping-cart';
   isLoggedIn:boolean=false;
   user_data:string="";
   ngOnInit() {
