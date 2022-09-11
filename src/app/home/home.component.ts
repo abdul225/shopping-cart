@@ -50,10 +50,10 @@ export class HomeComponent implements OnInit {
     { img: "https://dummyimage.com/350x150/4a2b7a/fff" },
   ];
   slides1 = [
-    { img: "../../assets/images/dress1.jpeg",
-      altImg: "assets/images/dress1.jpeg"},
+    { img: "../../assets/images/dress1.png",
+      altImg: "assets/images/dress1.png"},
     { img: "../../assets/images/dress2.jpeg",
-      altImg: "assets/images/dress2.jpeg" },
+      altImg: "./assets/images/dress2.jpeg" },
     { img: "../../assets/images/dress3.jpeg",
       altImg: "assets/images/dress3.jpeg" },
     { img: "../../assets/images/dress4.jpeg",
