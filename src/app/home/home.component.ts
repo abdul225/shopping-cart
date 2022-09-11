@@ -49,6 +49,26 @@ export class HomeComponent implements OnInit {
     { img: "https://dummyimage.com/350x150/5a2b7a/fff" },
     { img: "https://dummyimage.com/350x150/4a2b7a/fff" },
   ];
+  slides1 = [
+    { img: "../../assets/images/dress1.jpeg" },
+    { img: "../../assets/images/dress2.jpeg" },
+    { img: "../../assets/images/dress3.jpeg" },
+    { img: "../../assets/images/dress4.jpeg" },
+    { img: "../../assets/images/dress5.jpeg" },
+    { img: "../../assets/images/dress6.jpeg" },
+    { img: "../../assets/images/dress7.jpeg" },
+    { img: "../../assets/images/dress8.jpeg" },
+    { img: "../../assets/images/dress9.jpeg" },
+    { img: "../../assets/images/dress10.jpeg" },
+    { img: "../../assets/images/dress11.jpeg" },
+    { img: "../../assets/images/dress12.jpeg" },
+    { img: "../../assets/images/dress13.jpeg" },
+    { img: "../../assets/images/dress14.jpeg" },
+    { img: "../../assets/images/dress15.jpeg" },
+    { img: "../../assets/images/dress16.jpeg" },
+    { img: "../../assets/images/dress17.jpeg" },
+    { img: "../../assets/images/dress18.jpeg" },
+  ];
   slideConfig = {
     "slidesToShow": 1, "slidesToScroll": 1, "autoplay": true, "autoplaySpeed": 2500,
     responsive: [
