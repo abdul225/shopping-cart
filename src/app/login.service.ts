@@ -81,7 +81,7 @@ export class LoginService implements CanActivate{
       //this.LoginEvent.emit(this.loggedin);
       this.isLoggedIn=true;
       this.dialog.closeAll();
-      this.router.navigate(['videos']);
+      this.router.navigate(['details']);
     }).catch((error)=>{
       alert(error.message);
        //console.log("error msg is ",error.meassage);

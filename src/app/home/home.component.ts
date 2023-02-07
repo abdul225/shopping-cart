@@ -156,9 +156,9 @@ export class HomeComponent implements OnInit {
     ]
   };
 
-  playVideo() {
+  gotoProduct() {
     if (this.loginService.getIsLoggedIn()) {
-      this.router.navigate(['videos']);
+      this.router.navigate(['details']);
     }
     else {
       const dialogRef = this.dialog.open(LoginComponent,{panelClass: ['slide-animation']});
@@ -167,7 +167,7 @@ export class HomeComponent implements OnInit {
   }
 
   receiveLogin(islogin: boolean) {
-    this.playVideo();
+    this.gotoProduct();
   }
   getStarted(){
     const dialogRef = this.dialog.open(LoginComponent,{panelClass: ['slide-animation']});

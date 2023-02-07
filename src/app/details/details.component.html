@@ -1,0 +1,32 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column">
+    <div fxFlex="10"></div>
+    
+  <div fxFlex="40" fxFlex.md="40" fxFlex.xs="100">
+    <ngx-slick-carousel class="carousel1" #slickModal="slick-carousel" [config]="slideConfig">
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img class="product-image" src="{{ slide.img }}" alt="assets/images/dress1.jpeg">
+      </div>
+    </ngx-slick-carousel>
+    </div>
+    <div fxFlex="10" fxFlex.md="10" fxFlex.xs="10"  class="icons-div">
+      <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig1">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+          <img class="product-icon" src="{{ slide.img }}" alt="assets/images/dress1.jpeg">
+        </div>
+      </ngx-slick-carousel>
+    </div>
+  <div fxFlex="40" fxFlex.md="20" fxFlex.xs="30" fxLayout="column" fxLayoutAlign="center center" class="desc-content">
+    <h1 class="product-title">
+      product Title
+    </h1>
+    <p class="description">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorem praesentium aperiam soluta aut, eligendi provident tenetur totam deleniti esse, et itaque vero nulla explicabo nihil, placeat ex! Tenetur, totam.
+
+    </p>
+
+    <button (click)="order()" class="order-btn">
+      place order 
+    </button>
+  </div>
+  <div fxFlex="10"></div>
+</div>

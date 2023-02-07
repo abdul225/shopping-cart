@@ -17,8 +17,8 @@
                     max="15" />
                 <input *ngIf="isOTPVisible" type="text" name="input2" [(ngModel)]="otp"
                     placeholder="One time password(OTP)" />
-                <button *ngIf="!isOTPVisible" (click)="getOTP('RecaptchaDiv')">Get OTP</button>
-                <button *ngIf="isOTPVisible" (click)="logIn()">Log in</button>
+                <button type="submit" *ngIf="!isOTPVisible" (click)="getOTP('RecaptchaDiv')">Get OTP</button>
+                <button type="submit" *ngIf="isOTPVisible" (click)="logIn()">Log in</button>
                 <div id="RecaptchaDiv"></div>
             </form>
         </div>
@@ -33,8 +33,8 @@
                 max="15" />
             <input *ngIf="isOTPVisible" type="text" name="input2" [(ngModel)]="otp"
                 placeholder="One time password(OTP)" />
-            <button *ngIf="!isOTPVisible" (click)="getOTP('RecaptchaDivMob')">Get OTP</button>
-            <button *ngIf="isOTPVisible" (click)="logIn()">Log in</button>
+            <button type="submit" *ngIf="!isOTPVisible" (click)="getOTP('RecaptchaDivMob')">Get OTP</button>
+            <button type="submit" *ngIf="isOTPVisible" (click)="logIn()">Log in</button>
             <div id="RecaptchaDivMob"></div>
         </form>
     </div>
