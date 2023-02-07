@@ -11,7 +11,7 @@
     <div fxFlex="10" fxFlex.md="10" fxFlex.xs="10"  class="icons-div">
       <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig1">
         <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-          <img class="product-icon" src="{{ slide.img }}" alt="assets/images/dress1.jpeg">
+          <img class="product-icon" src="{{ slide.img }}" alt="{{ slide.altImg }}">
         </div>
       </ngx-slick-carousel>
     </div>

@@ -16,10 +16,14 @@ export class DetailsComponent implements OnInit {
   slickModal!: SlickCarouselComponent;
 
   slides = [
-    { img: "../../assets/images/color1.jpeg" },
-    { img: "../../assets/images/color2.webp" },
-    { img: "../../assets/images/color3.webp" },
-    { img: "../../assets/images/color4.jpeg" },
+    { img: "../../assets/images/color1.jpeg",
+    altImg: "assets/images/color1.jpeg" },
+    { img: "../../assets/images/color2.webp",
+    altImg: "assets/images/color2.webp" },
+    { img: "../../assets/images/color3.webp",
+    altImg: "assets/images/color3.webp" },
+    { img: "../../assets/images/color4.jpeg",
+    altImg: "assets/images/color4.jpeg" },
   ];
 
   slideConfig = {
